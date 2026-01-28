@@ -225,15 +225,9 @@ button {
   padding: 72px 0;
 
   @media screen and (min-resolution: 2x) {
-    & {
-      background-image:
-        linear-gradient(
-          to bottom,
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/bg-mobile-2x.jpg);
-    }
+    background-image:
+      linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/bg-mobile-2x.jpg);
   }
 }
 
@@ -274,18 +268,18 @@ button {
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/bg-tablet.jpg);
+
     @media screen and (min-resolution: 2x) {
-      & {
-        background-image:
-          linear-gradient(
-            to bottom,
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-          ),
-          url(../images/bg-tablet-2x.jpg);
-      }
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-tablet-2x.jpg);
     }
   }
+
   .title {
     font-weight: 700;
     font-size: 56px;
@@ -305,17 +299,16 @@ button {
       url(../images/bg-desktop.jpg);
 
     @media screen and (min-resolution: 2x) {
-      & {
-        background-image:
-          linear-gradient(
-            to bottom,
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-          ),
-          url(../images/bg-desktop-2x.jpg);
-      }
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-desktop-2x.jpg);
     }
   }
+
   .title {
     margin: 0 auto 48px auto;
   }
@@ -389,7 +382,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left;
   }
   .features-text {
     font-weight: 400;
