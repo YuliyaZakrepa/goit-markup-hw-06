@@ -1,5 +1,5 @@
-💻 Tech stack: HTML, CSS, JavaScript
-Web studio single-page website.
+💻 Tech stack: HTML, CSS, JavaScript.
+<br>Web studio single-page website.
 
 
 
