@@ -1,2 +1,5 @@
-# goit-markup-hw-05
+💻 Tech stack: HTML, CSS, JavaScript
+Web studio single-page website.
+
+
 
